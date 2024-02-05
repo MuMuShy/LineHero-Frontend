@@ -1,0 +1,10 @@
+<div class="character-selection">
+  <div class="character-container">
+    <div class="character-card male">
+      <img [src]="'assets/characters/'+ gender+'.png'" alt="Male Character">
+      <h3>{{description}}</h3>
+      <button (click)="selectCharacter('male')">Select</button>
+    </div>
+    <!-- Add more character cards here -->
+  </div>
+</div>
